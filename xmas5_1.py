@@ -4,7 +4,7 @@ def repeatedPair(input):
 		for search in range(letter+2, len(input)-1):
 			if (input[letter]==input[search] and input[letter+1]==input[search+1]):
 				counter+=1
-				print "here", letter+1 , search+1, input[letter],input[letter+1]+" and "+input[search], input[search+1], input
+				# print "here", letter+1 , search+1, input[letter],input[letter+1]+" and "+input[search], input[search+1], input
 	return counter			
 
 def repeatLetter(input):
