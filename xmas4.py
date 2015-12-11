@@ -2,7 +2,7 @@ import hashlib
 
 def check(string, number):
 	checker=hashlib.md5(string).hexdigest()
-	# print checker[0:6]=="00000", number, checker[0:5]
+	print checker[0:6]=="00000", number, checker[0:5]
 	if checker[0:6]=="000000":
 		print number
 		return 0
